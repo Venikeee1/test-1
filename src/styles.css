@@ -18,3 +18,19 @@ body {
    */
   background-image: url('./images/bg-pattern.png');
 }
+
+.color-picker {
+  opacity: 0;
+  pointer-events: none;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.color-picker + label {
+  border: 1px solid purple;
+  padding: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
